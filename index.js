@@ -1,9 +1,10 @@
+require('dotenv').config();
 const minimist = require('minimist');
 
 module.exports = () => {
 
 	const args = minimist(process.argv.slice(2));
-	
+	console.log(process.env.YAHOO_SECRET_KEY);
 	// Default to help command if naked invoked
 	let cmd = args._[0] || 'help';
 	

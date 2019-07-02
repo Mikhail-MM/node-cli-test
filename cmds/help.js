@@ -26,7 +26,7 @@ module.exports = (args) => {
       : args._[0]
       
       // Seems to always be true / [1]....
-      console.log(args._[1]);
+      console.log(args._);
   
     
     console.log(menus[subCmd] || menus.main)
