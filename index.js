@@ -24,7 +24,9 @@ module.exports = () => {
 			break;
 		case 'forecast':
       		require('./cmds/forecast')(args);
-      		break;
+			break;
+		case 'location':
+			require('./utils/location/getLocation')();
 		case 'printargv':
 			require('./cmds/printargs')();
 			break;
