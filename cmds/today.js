@@ -1,4 +1,4 @@
 module.exports = (args) => {
-    console.log("Today is Great!")
-    console.log(`Passing in arguments ${args}`)
+    const oAuthInstance = require('../utils/yahooWeather/YahooOAuthInstance')();
+    require('../utils/yahooWeather/getWeather')(oAuthInstance, {today: true});
 }

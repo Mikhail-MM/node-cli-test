@@ -1,0 +1,116 @@
+{
+    "location": {
+        "woeid": 2502265,
+        "city": "Sunnyvale",
+        "region": " CA",
+        "country": "United States",
+        "lat": 37.371609,
+        "long": -122.038254,
+        "timezone_id": "America/Los_Angeles"
+    },
+    "current_observation": {
+        "wind": {
+            "chill": 74,
+            "direction": 285,
+            "speed": 12.43
+        },
+        "atmosphere": {
+            "humidity": 50,
+            "visibility": 10.0,
+            "pressure": 29.71,
+            "rising": 0
+        },
+        "astronomy": {
+            "sunrise": "5:51 am",
+            "sunset": "8:33 pm"
+        },
+        "condition": {
+            "text": "Partly Cloudy",
+            "code": 30,
+            "temperature": 74
+        },
+        "pubDate": 1562108400
+    },
+    "forecasts": [
+        {
+            "day": "Tue",
+            "date": 1562050800,
+            "low": 57,
+            "high": 76,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Wed",
+            "date": 1562137200,
+            "low": 57,
+            "high": 73,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Thu",
+            "date": 1562223600,
+            "low": 58,
+            "high": 73,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Fri",
+            "date": 1562310000,
+            "low": 58,
+            "high": 77,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Sat",
+            "date": 1562396400,
+            "low": 58,
+            "high": 82,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Sun",
+            "date": 1562482800,
+            "low": 58,
+            "high": 77,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Mon",
+            "date": 1562569200,
+            "low": 60,
+            "high": 74,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Tue",
+            "date": 1562655600,
+            "low": 60,
+            "high": 81,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Wed",
+            "date": 1562742000,
+            "low": 62,
+            "high": 84,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Thu",
+            "date": 1562828400,
+            "low": 63,
+            "high": 84,
+            "text": "Mostly Sunny",
+            "code": 34
+        }
+    ]
+}
